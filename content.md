@@ -366,7 +366,8 @@ Siin on mõned välised ressursid, mis aitavad teemat mõista:
 
 #### Käsklused
 
-Soovitan Gitti kasutada käsurealt, et seda mõista. On olemas ka [kasutajaliidesega tarkvara](https://desktop.github.com/), kuid algajale võib see eriti keeruliseks osutuda.
+Soovitan Gitti kasutada käsurealt, et seda mõista. On olemas ka [kasutajaliidesega tarkvara](https://desktop.github.com/), kuid algajale võib see eriti keeruliseks osutuda. Windowsis tegutsejatele on kasutajaliidese tarkvara installeerimine vajalik, kuna cmd terminal ei tunne Git-i. Liidesega tuleb kaasa ka PowerShell, mis on siis sarnane cmd windowsi terminaliga. Edaspidi saate kasutada ka Windowsis kõiki all olevaid käsuridu.
+
 
 Muuda käesolev kaust Giti repositooriumiks
 
@@ -1260,6 +1261,11 @@ Käia tsükliga läbi mõni andmete kogum (nt. massiiv)
     Math.pow(5, 7);
 
 Matemaatika on muidugi kõige lihtsam näide. Java API kaudu saab ka ligi kasutaja klaviatuurile, konsooli printimisele, faili toimingutele ja muudele vahenditele, mida muidu peaks ise välja mõtlema.
+
+####Windows 10 abi 
+Windowsi(PowerShell/cmd) terminalis javac käsk ise automaatselt ei tööta. 
+javac tööle saamiseks tuleb valida Windowsi märgiga nupu kõrvalt otsing(Search Windows). Sinna kirjutada advanced system settings ning see käivitada. Jälgige, et asuksite advanced tab-il ja valige sealt Enviroment variables. System variables-is leidke Path ning vajutage edit.
+Listi tekkimisel vajutada new ning sinna tuleb lisada java bin kataloogi asukoht. Näiteks C:\Program Files\Java\jdk1.8.0_102\bin  Viimase täpseks leidmiseks navigeerige oma java bin kataloogi, võtke parema klickiga suvalise fili peal properties ning seal on bin kataloogi täpne aadress. Vaja on nii lisada mõlemad bin-i asukohad nii jdk kui ka jre kataloogi oma. Listi puudumisel saab sama info lisada avanevasse lahtrisse kasutades semikoolonit(;). Näiteks ees_olev_informatsioon;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\Java\jde1.8.0_102\bin;
 
 ### System
 
